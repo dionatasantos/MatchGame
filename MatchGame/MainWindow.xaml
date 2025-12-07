@@ -21,24 +21,24 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" />
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="2"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="1" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="2" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Column="3" MouseDown="TextBlock_MouseDown" />
         
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="2"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="1" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="2" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="1" Grid.Column="3" MouseDown="TextBlock_MouseDown" />
 
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="2"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="1" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="2" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="2" Grid.Column="3" MouseDown="TextBlock_MouseDown" />
 
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="2"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="1" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="2" MouseDown="TextBlock_MouseDown" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Text="?" Grid.Row="3" Grid.Column="3" MouseDown="TextBlock_MouseDown" />
     </Grid>
 </Window>
